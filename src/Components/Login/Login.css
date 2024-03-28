@@ -1,0 +1,106 @@
+.Loginsignup{
+    width: 100%;
+    height: 665px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    padding-top: 55px;
+    padding-bottom: 50px;
+
+}
+.LoginSignup-container{
+    width: 500px;
+    height: 550px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+}
+.LoginSignup-container h1{
+    margin: -20px 0px;
+    text-align: center;
+    color: white;
+}
+.Login-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+.Login-fields ::placeholder{
+    color: black;
+}
+.Login-fields p{
+    margin: 0;
+    font-size: 16px;
+}
+.Login-fields input{
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    border: 2px solid #c9c9c9;
+    outline: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius:10px;
+}
+.Login-fields button{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 1em;
+    color:white;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    margin-top:10px;
+    padding: 1em 3em;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    background-image: linear-gradient(to right, #e4ae0c 0%,#12aff1 51%, #aa1818 100%);    transition: 0.5s;
+    width:100%;
+    
+    
+    
+  }  
+
+  .Login-fields button:hover{
+    background-position: right center;
+   
+
+  }
+
+.loginsignup-login{
+    margin: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+
+}
+.loginsignup-login span{
+    color: #ff4141;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.login-agree{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    gap: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left:-10px;
+    
+}
+
+
